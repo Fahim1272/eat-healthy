@@ -5,7 +5,7 @@ body {
 
 .head-div-1 {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 .head-div-2 {
@@ -16,9 +16,27 @@ body {
 .head-div-2 img {
     width: 100%;
 }
-.sec{
+
+.mid-div-1 {
+    width: 50%;
+}
+
+.mid-div-1 img {
+    width: 50%;
+    padding-left: 200px;
+
+}
+
+.mid-div-2 {
+    width: 50%;
+    padding-top: 70px;
+    padding-right: 70px;
+}
+
+.sec {
     display: flex;
 }
+
 .first_sec {
     display: flex;
     margin: 5px;
@@ -40,9 +58,35 @@ p {
 .btn-1 {
     text-decoration: none;
     background-color: orange;
-    padding: 10px 20px;
+    padding: 20px 30px;
     background-image: linear-gradient(orange, tomato);
     font-weight: 600;
     color: white;
     border-radius: 60px;
+}
+
+.btn-2 {
+
+    text-decoration: none;
+    background-color: orange;
+    padding: 20px 50px;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 600;
+    color: white;
+    border-radius: 60px;
+}
+
+
+h2 {
+    color: gray;
+    font-size: 40px;
+}
+
+.second_sec {
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+
+.mid-div-2 p {
+    margin-bottom: 80px;
 }
